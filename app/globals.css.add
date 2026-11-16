@@ -1,0 +1,5 @@
+.logo{height:56px;width:auto;mix-blend-mode:lighten;display:block}footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.hero{background:linear-gradient(90deg,rgba(5,5,6,.92),rgba(5,5,6,.35)),url(/hero.jpg) center/cover;min-height:72vh;display:flex;flex-direction:column;justify-content:center}
+.pic{width:100%;border-radius:14px;display:block;object-fit:cover}.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.gal img{aspect-ratio:4/5}
+.notice{border:1px solid var(--m);border-radius:10px;padding:12px 16px;color:var(--m)}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:10px 6px;border-bottom:1px solid var(--l)}
+ul{padding-left:20px}.tabs .b2{text-align:left}

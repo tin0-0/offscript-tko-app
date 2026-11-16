@@ -1,0 +1,2 @@
+.doc{background:#fff;color:#111;padding:28px;border-radius:6px;margin-top:20px}.doc td{border-color:#ddd}.dh{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:3px solid #111;padding-bottom:12px;margin-bottom:12px}
+@media print{header,footer,.noprint{display:none!important}body{background:#fff}.doc{margin:0;padding:0}}

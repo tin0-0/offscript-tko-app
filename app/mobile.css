@@ -1,0 +1,13 @@
+/* mobile first; desktop rules at the bottom */
+header{position:relative;flex-wrap:nowrap;padding:10px 5vw}.logo{height:40px}
+.menu-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--l);background:none;color:var(--t);font:inherit;font-weight:700;cursor:pointer}
+.nav{display:none;position:absolute;top:100%;left:0;right:0;z-index:20;flex-direction:column;gap:0;padding:4px 5vw 14px;background:var(--bg);border-bottom:1px solid var(--l)}
+.nav.open{display:flex}.nav a{display:flex;align-items:center;min-height:50px;border-bottom:1px solid var(--l);color:var(--m);font-size:1.05rem}.nav a[aria-current=page]{color:var(--t);font-weight:700}
+.sticky{position:fixed;left:5vw;right:5vw;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:15;text-align:center;box-shadow:0 8px 28px rgba(0,0,0,.65)}
+.b,.b2{display:inline-flex;align-items:center;justify-content:center}.b,.b2,button,input,select{min-height:46px}
+.hero{min-height:62svh;padding:12vw 5vw}.w{padding:32px 5vw}.w>.g>img.pic{max-height:68svh;object-position:center top}
+.tabs .b2{flex:1 1 100%;justify-content:flex-start}.card a:not(.b):not(.b2){display:inline-block;padding:10px 0}
+td,th{padding:12px 6px}footer{padding-bottom:96px}footer a{display:inline-block;padding:8px 2px}
+@media(min-width:760px){.menu-btn{display:none}.nav{display:flex;position:static;flex-direction:row;gap:6px 22px;padding:0;border:0;background:none}
+.nav a{min-height:0;border:0;font-size:1rem}.nav a:hover{color:var(--t)}.logo{height:56px}.sticky{display:none}.tabs .b2{flex:0 0 auto}.hero{min-height:72vh;padding:9vw 5vw 6vw}.w{padding:44px 5vw}footer{padding-bottom:30px}}
+.tabs .b2{flex-direction:column;align-items:flex-start;justify-content:center;border-radius:18px;padding:12px 20px;text-align:left}.tabs .b2 br{display:none}.tabs .b2 small{font-weight:400;opacity:.8}
